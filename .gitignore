@@ -1,0 +1,27 @@
+# Environment & Secrets (CRITICAL: NEVER COMMIT PRIVATE KEYS)
+.env
+.env.local
+*.env
+
+# Cache directory (dynamic local data)
+cache/
+*/cache/
+
+# Python compiled bytecode
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
